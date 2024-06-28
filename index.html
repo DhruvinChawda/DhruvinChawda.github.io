@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d91da5779f.js" crossorigin="anonymous"></script>
+    <title>Portfolio-Dhruvin</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/DHRUVIN.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SKILLS</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Data Scientist / Web Developer
+                </p>
+                <h1>
+                    Hi, I'M <br><span>DHRUVIN CHAWDA</span><br>FROM INDIA
+                </h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------------------------------ABOUT-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dhruvin-user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>
+                        Highly motivated and results-oriented aspiring data scientist with a strong foundation in
+                        web development. Eager to leverage programming proficiency and analytical abilities to
+                        translate complex data insights into user-friendly web applications.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Non Technical Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                           <li><span>Languages</span><br>English | Spanish | Hindi | Gujarati | Sanskrit </li>
+                           <li><span>Social</span><br>Teamwork | Communication | Group discussion</li>
+                           <li><span>Cognitive</span><br>Situation awareness | Task management</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2021 - 2025 &nbsp;CGPA : 8</span><br>Shri Ramdeobaba college of engineering and
+                                management</li>
+                            <li><span>2022 - 2025</span><br>Honors - web development</li>
+                            <li><span>2021</span><br>ICAD and tayawade jr college<br>12th percentage : 97.6%</li>
+                            <li><span>2019</span><br>Modern School<br>10th Percentage : 91.4%</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Executive Member</span><br>DASCA - Data Science Association</li>
+                            <li><span>Intern web dev/Marketing</span><br>O1 coding club</li>
+                            <li><span>Online</span><br>Student Exchange Program</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                           <li><span>ORACLE - 2024</span><br>Oracle Cloud Infrastructure 2024 Generative AI Professional Certificate!</li>
+                           <li><span>AICTE - 2023</span><br>AICTE DATA ANALYTICS VIRTUAL INTERNSHIP</li>
+                           <li><span>PROGRESSIA - 2024</span><br>PROGRESSIA MACHINE LEARNING INTERNSHIP</li>
+                           <li><span>EDX</span><br>EDX CERTIFICATIONS</li>
+                           <br>
+                           <br>
+                           <br>
+                           <li>Find certificates on my LinkedIN profile <a href="https://www.linkedin.com/in/dhruvin-chawda-ab5815233/"><i class="fa-brands fa-linkedin"></i></li></a>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------SERVICES AND TECH SKILLS-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">TECHNICAL SKILLS AND SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>PROGRAMMING LANGUAGES</h2>
+                    <p>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>PYTHON</li>
+                            <li>SQL</li>
+                            <li>GO</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                        </ul>
+                    </p><br>
+                    <br>
+                    <p>FIND RELEVANT MINI PROJECTS HERE : </p>
+                    <a href=https://github.com/DhruvinChawda?tab=repositories><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>FRAMEWORKS</h2>
+                    <p>
+                        <ul>
+                            <li>REACT JS</li>
+                            <li>NODE JS</li>
+                            <li>EXPRESS JS</li>
+                            <li>STREAMLIT</li>
+                        </ul>
+                    </p><br>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>LIBRARIES</h2>
+                    <p>
+                        <ul>
+                            <li>NUMPY</li>
+                            <li>PANDAS</li>
+                            <li>SEABORN</li>
+                            <li>BEAUTIFUL SOUP</li>
+                            <li>MATPLOTLIB</li>
+                            <li>TENSORFLOW</li>
+                            <li>SCRAPY</li>
+                            <li>REQUESTS</li>
+                        </ul>
+                    </p><br>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i> - - -<i class="fa-solid fa-chart-line"></i>
+                    <h2>DATA TOOLS, DATABASES & TECHNOLOGIES</h2>
+                    <p>
+                        <ul>
+                            <li>POWER BI</li>
+                            <li>MS EXCEL</li>
+                            <li>MONGO DB</li>
+                            <li>PostgreSQL</li>
+                            <li>ORACLE DB</li>
+                            <li>TABLEAU</li>
+                            <li>GITHUB</li>
+                            <li>VS CODE</li>
+
+                        </ul>
+                    </p><br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------PROJECTS--------------------------->
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY PROJECTS</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/chatbots-sheldon&amy.png" alt="portfolio-1">
+                    <div class="layer">
+                        <i class="fa-solid fa-robot"></i>
+                        <h2>Sheldon & Amy : Desktop Voice Assistants</h2>
+                        <p>Meet Prototype model of Sheldon and Amy - <br>A Prototype Model of my personalized desktop
+                            Voice assistants.<br>
+                            Sheldon helps me with my tasks and knowledge and facts <br>whereas for chatting purpose Amy
+                            is always there.<br>
+                            This code is only for prototype model as it does not work efficiently<br>one of the main
+                            issue is
+                            No Past Memory which is yet to achieve.
+                        </p><br>
+                        <a
+                            href="https://github.com/DhruvinChawda/Sheldon-and-Amy---Personalized-Desktop-Voice-Assistants"><i class="fa-brands fa-github"></i></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/WHATSAPP CHAT ANALYSER.png" alt="portfolio-1">
+                    <div class="layer">
+                        <i class="fa-brands fa-whatsapp"></i><i class="fa-solid fa-magnifying-glass-chart"></i>
+                        <h2>Whatsapp Chat Analyser</h2>
+                        <p>Whatsapp chat analyser using the concepts of machine learning and libraries like<br>
+                            pandas, seaborn, matplotlib, wordcloud, urlextractor & counter from collections.<br>
+                            And Streamlit for creating frontend and web app of the project.
+                        </p><br>
+                        <a href="https://github.com/DhruvinChawda/Whatsapp-Chat-Analyser"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/profession tag.png" alt="portfolio-1">
+                    <div class="layer">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h2>Profession Tag Generator</h2>
+                        <p>Based on Users publically available data it will extract the predefined skills<br>
+                           which will help the model to predict the persons likely profession.
+                        </p><br>
+                        <a href="https://github.com/DhruvinChawda/profession-tagger-webapp"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/DhruvinChawda?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------------------------CONTACT ------------------------------>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> dhruvinchawda10@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i> 8055081560</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dhruvin-chawda-ab5815233/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DhruvinChawda"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/Resume ATS Dhruvin.pdf" download class="btn btn2" >Download Resume <i class="fa-solid fa-download"></i></a>
+                </div>
+                <div class="contact-right">
+                    <p>" Any Message for Me? I'd Love to Hear It! "</p>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="0423aff7-b1e6-4597-8fc0-5452e4b68fa8">
+                    <input type="text" name="Name" placeholder="your good name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your message for me"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Dhruvin Chawda. All rights Reserved</p>
+            <p>All content and images are the property of Dhruvin Chawda. Unauthorized use is prohibited.</p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
